@@ -292,6 +292,7 @@ color: #2E2F42;
     position: absolute;
     bottom: 8px;
     left: 16px;
+    padding: 0;
     fill: #2E2F42;
 }
 .order-input:focus .order-icon {
