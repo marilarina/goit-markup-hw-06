@@ -354,7 +354,7 @@
 							<input type="email" name="email" placeholder="E-mail" class="subscribe-input" />
 						</form>
 						<button type="submit" class="subscribe-btn"
-							>Subscribe<span>
+							>Subscribe<span class="subscribe-btn-icon">
 								<svg class="subscribe-icon" width="24" height="24">
 									<use href="./images/icons.svg#subscribe-icon" /></svg></span
 						></button>
@@ -404,8 +404,10 @@
 							></textarea>
 						</div>
 						<div class="form-field">
-							<input type="checkbox" name="privacy-policy" class="order-check" id="privacy-policy" />
-							<svg class="check-icon" width="10" height="8"><use href="./images/icons.svg#check-icon" /></svg
+							<input type="checkbox" name="privacy-policy" class="order-check visually-hidden" id="privacy-policy" />
+							<span class="fake-checkbox"
+								><svg class="fake-check-icon" width="10" height="8">
+									<use href="./images/icons.svg#fake-check-icon" /></svg></span
 							><label for="privacy-policy" class="order-label-check"
 								>I accept the terms and conditions of the <a class="policy-link" href="#">Privacy Policy</a></label
 							></div
